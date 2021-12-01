@@ -28,6 +28,7 @@ footer{
     align-items: center;
 }
 footer h3{
+    font-size: 25px;
     color:#D8BFAA;
 }
 footer h3 a{
@@ -99,6 +100,39 @@ body{
     align-content: center;
     padding: 20px;
 }
+/* Page 2 */
+
+.buy-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    gap: 5px;
+}
+.grid-img img{
+    display: block;
+    width: 90%;
+    border: #2F52E0 solid 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+.grid-text-1{
+    display: block;
+    background-color: #2F52E0;
+    padding: 10px;
+    font-size: 30px;
+    color:#D8BFAA ;
+    margin: auto;
+    border-radius: 15px;
+}
+.grid-text-2{
+    background-color: #2F52E0;
+    padding: 10px;
+    font-size: 40px;
+    color: #D8BFAA;
+    margin: auto;
+    grid-column: 1/-1;
+    border-radius: 15px;
+}
 /* Page 3 */
 .card{
     margin-top: 10px;
@@ -118,4 +152,14 @@ body{
 .card img{
     width: 100%;
     justify-items:center;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.contact{
+    grid-row: 1/-1;
+    display: block;
+    margin: auto;
 }
