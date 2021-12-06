@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Nanum+Myeongjo&display=swap');
+
 content{
     max-width:1600px;
     margin: 0 auto;
@@ -29,6 +32,7 @@ footer{
 }
 footer h3{
     font-size: 25px;
+    font-family: 'Irish Grover' , cursive;;
     color:#D8BFAA;
 }
 footer h3 a{
@@ -67,6 +71,7 @@ nav a{
     text-decoration: none;
     padding: 35px;
     font-size: 30px;
+    font-family: 'Irish Grover' , cursive;
 }
 nav{
     display: flex;
@@ -93,6 +98,7 @@ body{
     justify-content: center;
     grid-row: 2/3;
     align-content: center;
+    font-family: 'Nanum Myeongjo', serif;
 }
 .main-img{
     grid-row: 1/4;
@@ -123,6 +129,7 @@ body{
     color:#D8BFAA ;
     margin: auto;
     border-radius: 15px;
+    font-family: 'Nanum Myeongjo', serif;
 }
 .grid-text-2{
     background-color: #2F52E0;
@@ -132,6 +139,7 @@ body{
     margin: auto;
     grid-column: 1/-1;
     border-radius: 15px;
+    font-family: 'Nanum Myeongjo', serif;
 }
 /* Page 3 */
 .card{
@@ -173,6 +181,7 @@ body{
     padding: 10px;
     text-align: center;
     border-radius: 15px;
+    font-family: 'Nanum Myeongjo', serif;
 }
 .contact-img{
     display: block;
@@ -181,4 +190,5 @@ body{
 .notice{
     text-align: center;
     color: #2F52E0;
+    font-family: 'Nanum Myeongjo', serif;
 }
